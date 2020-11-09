@@ -5,7 +5,12 @@
 layout: page
 ---
 
-![Ancona School]({{ site.baseurl }}/assets/img/ancona.png)
+<div class="homepage" markdown="1">
+<img src="{{ site.baseurl }}/assets/img/ancona.png" class="logo">
+
+57th Street Books will share 10% of all Book Fair proceeds with Ancona.  These funds are then used to enhance Ancona's library collection.  
+ 
+Get great books - check.  Support a neighborhood business - check.  Support Ancona readers - check! 
 
 - [Picture Book](picture_book.markdown)
 - [Early Reader](early_reader.markdown)
@@ -13,3 +18,4 @@ layout: page
 - [Middle Grade](middle_grade.markdown)
 - [Young Adult](young_adult.markdown)
 - [Adult](adult.markdown)
+</div>
