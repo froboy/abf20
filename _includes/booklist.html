@@ -1,4 +1,10 @@
 {::nomarkdown}
+
+<p><img src="{{ site.baseurl }}/assets/img/student.jpg" alt="This book was recommended by a student." class="icon"> Student recommendation | 
+<img src="{{ site.baseurl }}/assets/img/parent.png" alt="This book was recommended by a parent." class="icon"> Parent recommendation | 
+<img src="{{ site.baseurl }}/assets/img/marsha.jpg" alt="This book was recommended by Marsha." class="icon"> Recommended by Marsha | 
+<img src="{{ site.baseurl }}/assets/img/award.png" alt="This book is an award winner." class="icon"> Award Winner</p>
+
 {% for book in site.data.bookfair offset:1 %}
     {% if book.Title and book.Age == page.title %}
         {% if book.CoopLink %}
