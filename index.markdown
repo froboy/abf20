@@ -5,17 +5,11 @@
 layout: page
 ---
 
-{% for book in site.data.bookfair offset:1 %}
-    {% if book.Title %}
-<div class="book">
-        {% if book.Picture contains "http" %}
-<img src="{{ book.Picture }}" alt="Image of {{ book.Title }}">
-        {% endif %}
-        {% if book.CoopLink %}
-<p markdown="1"><i>[{{ book.Title }}]({{ book.CoopLink }})</i> by {{ book.Author}} for {{ book.Price}}</p>
-        {% else %}
-<p><i>{{ book.Title }}</i> by {{ book.Author}} for {{ book.Price}}</p>
-        {% endif %}
-</div>
-    {% endif %}
-{% endfor %}
+![Ancona School]({{ site.baseurl }}/assets/img/ancona.png)
+
+- [Picture Book](picture_book.markdown)
+- [Early Reader](early_reader.markdown)
+- [Elementary](elementary.markdown)
+- [Middle Grade](middle_grade.markdown)
+- [Young Adult](young_adult.markdown)
+- [Adult](adult.markdown)

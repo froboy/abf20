@@ -13,7 +13,11 @@
     flex: 1 0 20%;
     margin: .5em;
 
-    img {
-        height: 4em;
+    .cover {
+        width: 100%;
+    }
+
+    .icon {
+        height: 1em;
     }
 }

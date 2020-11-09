@@ -33,6 +33,13 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+- picture_book.markdown
+- early_reader.markdown
+- elementary.markdown
+- middle_grade.markdown
+- young_adult.markdown
+- adult.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
