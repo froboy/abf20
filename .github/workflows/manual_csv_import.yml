@@ -1,0 +1,31 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: [workflow_dispatch]
+
+# Checkout the gh-pages branch.
+# Use wget to get the CSV export of the Google Sheet.
+# Commit files only if there's a change (via https://stackoverflow.com/a/8123841
+# Push changes
+jobs:
+  wget:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@gh-pages
+      - name: wget
+        uses: wei/wget@v1.1.1
+        with:
+         args: --no-check-certificate -O _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTT1jjrOsfHiBSXTEUIPqD9HoH_OEHEUhToMgZLKhxkdKU_LdVhuYgHhAxd-oOin_Fv_twlsYkNDa7L/pub?gid=0&single=true&output=csv'
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m 'Updated book list via automation.'
+      - name: Push changes
+        uses: ad-m/github-push-action@gh-pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
