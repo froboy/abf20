@@ -7,7 +7,8 @@ name: Manual workflow
 on: [workflow_dispatch]
 
 # Checkout the gh-pages branch.
-# Use wget to get the CSV export of the Google Sheet.
+# Use wget to get the CSV export of the Google Sheet,
+# from the path I got from https://stackoverflow.com/a/44184071.
 # Commit files only if there's a change (via https://stackoverflow.com/a/8123841
 # Push changes
 jobs:
@@ -18,7 +19,7 @@ jobs:
       - name: wget
         uses: wei/wget@v1.1.1
         with:
-         args: --no-check-certificate -O _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTT1jjrOsfHiBSXTEUIPqD9HoH_OEHEUhToMgZLKhxkdKU_LdVhuYgHhAxd-oOin_Fv_twlsYkNDa7L/pub?gid=0&single=true&output=csv'
+         args: --no-check-certificate -O _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew/export?format=csv&id=1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew&gid=0'
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
