@@ -19,7 +19,7 @@ jobs:
       - name: wget
         uses: wei/wget@v1.1.1
         with:
-         args: --no-check-certificate -O _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew/export?format=csv&id=1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew&gid=0'
+         args: --no-check-certificate -q -O _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew/export?format=csv&id=1SyAFzKAxLUvAlHmwI5O1N0eIkUjZBxC6__nvqkpNKew&gid=0'
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
