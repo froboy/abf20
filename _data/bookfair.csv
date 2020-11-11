@@ -32,8 +32,8 @@ Kid: Natasha,TRUE,FALSE,FALSE,FALSE,Young Adult,young adult,scifi/fantasy,Tarnis
 Marsha Stewart,FALSE,FALSE,TRUE,FALSE,Elementary,grades 3-7,Latinx,Land of the Cranes,Aida Salazar,Immigration story,$17.99,https://library.herkserver.com/i/834-133-978-3809.jpg,https://www.semcoop.com/ingram-0?isbn=9781338343809,,Yes
 Marsha Stewart,FALSE,FALSE,TRUE,FALSE,Picture Book,Picture book,,Vamos: Let's Go Eat,Raul the third,,$14.99,https://library.herkserver.com/i/855-132-978-7049.jpg,https://www.semcoop.com/ingram-0?isbn=9781328557049,,
 Kid: Natasha,TRUE,FALSE,FALSE,FALSE,Young Adult,adult,fiction/fairy tale,The Golem and the Jinni,Helene Wecker,,$10.00,https://m.media-amazon.com/images/I/51-OHKGrrtL._AC_UY436_FMwebp_QL65_.jpg,https://www.semcoop.com/golem-and-jinni-0,,
-Kid: Geoffrey,TRUE,FALSE,FALSE,FALSE,Middle Grade,grades 3-7 (4-7th),fantasy,Jack,Liesl Shurtliff,(local author!),$7.99,https://www.semcoop.com/jack-true-story-jack-beanstalk,https://www.semcoop.com/jack-true-story-jack-beanstalk,,Yes
-,FALSE,FALSE,FALSE,TRUE,Middle Grade,Chapter book,Realistic fiction,The Only Road,Alexandra Diaz,Latinx/Immigration,$8.99,https://www.semcoop.com/only-road-0,https://www.semcoop.com/only-road-0,,
+Kid: Geoffrey,TRUE,FALSE,FALSE,FALSE,Middle Grade,grades 3-7 (4-7th),fantasy,Jack,Liesl Shurtliff,(local author!),$7.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780385755825.jpg,https://www.semcoop.com/jack-true-story-jack-beanstalk,,Yes
+,FALSE,FALSE,FALSE,TRUE,Middle Grade,Chapter book,Realistic fiction,The Only Road,Alexandra Diaz,Latinx/Immigration,$8.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9781481457514.jpg,https://www.semcoop.com/only-road-0,,
 Kid: Helena,TRUE,FALSE,FALSE,FALSE,Middle Grade,grades 3-7 (4-6th),fiction,Molly Moon,Georgia Byng,series (G&H recommend skipping #6!),$7.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780060514099.jpg,https://www.semcoop.com/molly-moons-incredible-book-hypnotism,,Yes
 classic,FALSE,FALSE,FALSE,FALSE,Elementary,grades 3-7 (3rd/4th),fiction,Charlotte's Web,EB White,,$8.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780061124952.jpg,https://www.semcoop.com/charlottes-web-1,,
 ,FALSE,FALSE,FALSE,TRUE,Elementary,Nonfiction,Korean War,Sergeant Reckless,Patricia McCormick,,$8.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780062292599.jpg,https://www.semcoop.com/sergeant-reckless,,
@@ -67,7 +67,7 @@ kid: Helena/Classic,TRUE,FALSE,FALSE,FALSE,Elementary,grades 3-7 (3rd/4th),ficti
 Kid: Helena/parent,TRUE,FALSE,FALSE,FALSE,Early Reader,Early Reader,fiction,Dory Fantasmagory,Abby Hanlon,,$7.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780147510679.jpg,https://www.semcoop.com/search/apachesolr_search/dory%20fantasmagory,(I put in the link that goes to all of them rather than a specific book. -thoughts?),
 Radiah Smith-Donald,FALSE,TRUE,FALSE,FALSE,Picture Book,picture book,picture book,Roller Coaster,Marla Frazee,paperback,$7.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780152057442.jpg,https://www.semcoop.com/roller-coaster,,
 Kid: Natasha,TRUE,FALSE,FALSE,FALSE,Adult,adult,fiction,The Night Circus,Erin Morgenstern,mixed reviews on Amazon,$16.00,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780307744432.jpg,https://www.semcoop.com/night-circus,,
-Mary Clare Bietila,FALSE,TRUE,FALSE,FALSE,Elementary,grades 3-7 (3rd/4th),fiction,Nanny Piggins series,RA Spratt,,$8.99-9.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780316068185.jpg,https://www.semcoop.com/search/apachesolr_search/nanny%20piggins,,
+Mary Clare Bietila,TRUE,TRUE,FALSE,FALSE,Elementary,grades 3-7 (3rd/4th),fiction,Nanny Piggins series,RA Spratt,,$8.99-9.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780316068185.jpg,https://www.semcoop.com/search/apachesolr_search/nanny%20piggins,,
 Kid: Helena,TRUE,FALSE,FALSE,FALSE,Middle Grade,grades 3-7 (4-6th),fiction,The Candymakers,Wendy Mass,series,$9.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780316089180.jpg,https://www.semcoop.com/candymakers-and-great-chocolate-chase,,Yes
 ,FALSE,FALSE,FALSE,TRUE,Elementary,Chapter book,,"Stef Soto, Taco Queen",Jennifer Torres,Latinx,$6.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780316306843.jpg,https://www.semcoop.com/stef-soto-taco-queen,,
 ,FALSE,FALSE,FALSE,TRUE,Picture Book,Picture book,,What if...,Samantha Berger,,$17.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780316390965.jpg,https://www.semcoop.com/what-if-0,,
@@ -243,10 +243,10 @@ Award,FALSE,FALSE,FALSE,TRUE,Early Reader,early reader,fiction,Zoey and Sassafra
 ,FALSE,FALSE,TRUE,FALSE,Elementary,,poetry,Pizza the Size of the Sun,Jack Prelutsky,,$9.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780062239518.jpg,https://www.semcoop.com/pizza-size-sun,,
 ,FALSE,FALSE,TRUE,FALSE,Middle Grade,,poetry,The Dream Keeper and Other Poems,Langston Hughes,,$11.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780679883470.jpg,https://www.semcoop.com/dream-keeper-and-other-poems,,
 "kid: helena, camilla",TRUE,FALSE,FALSE,TRUE,Middle Grade,grades 3-7 (5-8th),fiction,The Penderwicks series,Jeanne Birdsall,,$7.99,https://www.semcoop.com/sites/www.semcoop.com/files/imagecache/product/isbn_images/9780440420477.jpg,https://www.semcoop.com/search/apachesolr_search/the%20penderwicks,(I put in the link that goes to all of them rather than a specific book. -thoughts?),
-,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
-,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
-,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
-,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
+marsha?,FALSE,FALSE,FALSE,FALSE,Elementary,chapter book (1st-3rd),,"You can do it, Yasmin",Saadia Faruqi,,,,,,
+marsha?,FALSE,FALSE,FALSE,FALSE,Elementary,chapter book (1st-3rd),,The Princess in Black and the Science Fair Scare#7,Shannon Hale,,,,,,
+marsha?,FALSE,FALSE,FALSE,TRUE,Elementary,chapter book (1st-3rd),,Tales For Very Picky Eaters,John Schneider,,,,,,
+award,FALSE,FALSE,FALSE,TRUE,Elementary,chapter book (1st-3rd),,Kayla and King and the case of the missing dog treats,Dori Hillstad Butler,,,,,,
 ,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
 ,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
 ,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,
