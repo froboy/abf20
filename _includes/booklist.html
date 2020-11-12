@@ -1,9 +1,9 @@
 {::nomarkdown}
 
-<p><img src="{{ site.baseurl }}/assets/img/student.jpg" alt="This book was recommended by a student." class="icon"> Student recommendation | 
-<img src="{{ site.baseurl }}/assets/img/parent.png" alt="This book was recommended by a parent." class="icon"> Parent recommendation | 
-<img src="{{ site.baseurl }}/assets/img/marsha.jpg" alt="This book was recommended by Marsha." class="icon"> Recommended by Marsha | 
-<img src="{{ site.baseurl }}/assets/img/award.png" alt="This book is an award winner." class="icon"> Award Winner</p>
+<p><img src="{{ site.baseurl }}assets/img/student.jpg" alt="This book was recommended by a student." class="icon"> Student recommendation | 
+<img src="{{ site.baseurl }}assets/img/parent.png" alt="This book was recommended by a parent." class="icon"> Parent recommendation | 
+<img src="{{ site.baseurl }}assets/img/marsha.jpg" alt="This book was recommended by Marsha." class="icon"> Recommended by Marsha | 
+<img src="{{ site.baseurl }}assets/img/award.png" alt="This book is an award winner." class="icon"> Award Winner</p>
 
 {% for book in site.data.bookfair offset:1 %}
     {% if book.Title and book.Age == page.title %}
@@ -15,17 +15,17 @@
         {% if book.Picture contains "http" %}
 <img src="{{ book.Picture }}" alt="Image of {{ book.Title }}" class="cover">
         {% endif %}
-        {% if book.Student %}
-<img src="{{ site.baseurl }}/assets/img/student.jpg" alt="This book was recommended by a student." class="icon">
+        {% if book.Student == "TRUE" %}
+<img src="{{ site.baseurl }}assets/img/student.jpg" alt="This book was recommended by a student." title="This book was recommended by a student." class="icon">
         {% endif %}
-        {% if book.Parent %}
-<img src="{{ site.baseurl }}/assets/img/parent.png" alt="This book was recommended by a parent." class="icon">
+        {% if book.Parent == "TRUE" %}
+<img src="{{ site.baseurl }}assets/img/parent.png" alt="This book was recommended by a parent." title="This book was recommended by a parent." class="icon">
         {% endif %}
-        {% if book.Marsha %}
-<img src="{{ site.baseurl }}/assets/img/marsha.jpg" alt="This book was recommended by Marsha." class="icon">
+        {% if book.Marsha == "TRUE" %}
+<img src="{{ site.baseurl }}assets/img/marsha.jpg" alt="This book was recommended by Marsha." title="This book was recommended by Marsha." class="icon">
         {% endif %}
-        {% if book.Award %}
-<img src="{{ site.baseurl }}/assets/img/award.png" alt="This book is an award winner." class="icon">
+        {% if book.Award == "TRUE" %}
+<img src="{{ site.baseurl }}assets/img/award.png" alt="This book is an award winner." title="This book is an award winner." class="icon">
         {% endif %}
 <p><i>{{ book.Title }}</i> by {{ book.Author}} for {{ book.Price}}</p>
         {% if book.CoopLink %}
