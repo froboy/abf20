@@ -5,7 +5,9 @@
 <img src="{{ site.baseurl }}/assets/img/marsha.jpg" alt="This book was recommended by Marsha." class="icon"> Recommended by Marsha | 
 <img src="{{ site.baseurl }}/assets/img/award.png" alt="This book is an award winner." class="icon"> Award Winner</p>
 
-<p>Be sure to mention "Ancona Book Fair" in the comment field at checkout!</p>
+<div class="intro">
+    <p>Be sure to mention "Ancona Book Fair" in the comment field at checkout!</p>
+</div>
 
 {% for book in site.data.bookfair offset:1 %}
     {% if book.Title and book.Age == page.title %}
