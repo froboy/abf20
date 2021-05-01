@@ -6,6 +6,10 @@
 .post-content {
     display: flex;
     flex-wrap: wrap;
+
+    .intro {
+        flex-basis: 100%;
+    }
 }
 
 img.logo {
