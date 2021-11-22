@@ -19,7 +19,7 @@ jobs:
       - name: curl
         uses: wei/curl@v1.1.1
         with:
-         args: -Lo _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/1zdbFZHgiH_1tDY-5cr367V2DlRx6qiSvjr7y98-vp_w/export?format=csv&id=1zdbFZHgiH_1tDY-5cr367V2DlRx6qiSvjr7y98-vp_w&gid=1318806350'
+         args: -Lo _data/bookfair.csv 'https://docs.google.com/spreadsheets/d/1Z1lkq037_ZAoxc37z9vCNWmYjV94qy9cIA8JgphYjO8/export?format=csv&id=1Z1lkq037_ZAoxc37z9vCNWmYjV94qy9cIA8JgphYjO8&gid=848588397'
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
