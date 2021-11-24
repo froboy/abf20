@@ -8,7 +8,9 @@ layout: page
 <div class="homepage" markdown="1">
 <img src="{{ site.baseurl }}/assets/img/ancona.png" class="logo">
 
-57th Street Books will share 10% of all Book Fair proceeds with Ancona. These funds are then used to enhance Ancona's library collection. Just **mention "Ancona21" in the comment field at checkout**. Ancona staff have also created a wishlist of books that they would love to receive for their classrooms. It can be found here: https://www.semcoop.com/wishlist/1917. Additionally, as is standard with in-person book fairs, purchases made for the virtual fair will not accrue frequent buyer credit on members' accounts.
+57th Street Books will share 10% of all Book Fair proceeds with Ancona. These funds are then used to enhance Ancona's library collection. Just **mention "Ancona21" in the comment field at checkout**. 
+Ancona staff have also created a wishlist of books that they would love to receive for their classrooms. It can be found here: https://www.semcoop.com/wishlist/1917. 
+Additionally, as is standard with in-person book fairs, purchases made for the virtual fair will not accrue frequent buyer credit on members' accounts.
  
 Get great books - check.  Support a neighborhood business - check.  Support Ancona readers - check! 
 
